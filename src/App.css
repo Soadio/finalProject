@@ -1,6 +1,96 @@
 .app {
-  max-width: 960px;
+  max-width: 1151px;
   margin: 0 auto;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 108px;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.hero p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #aa0321;
+}
+
+.input-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 34px;
+}
+
+.submit-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.submit-box span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  background: #aa0321;
+  border-radius: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f2f2f2;
+}
+
+.submit-box button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 16px;
+  background: #1e1e1e;
+  border-radius: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+  color: #f2f2f2;
+}
